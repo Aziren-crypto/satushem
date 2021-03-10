@@ -228,5 +228,6 @@ export class ModalAddJointPurchaseComponent implements OnInit {
     this.measurementUnit.setValue({"_id":"4","name":"₽"});
     this.pricePerUnit.clearValidators();
     this.pricePerUnit.updateValueAndValidity();
+    this.pricePerUnit.setValue(1);
   }
 }
